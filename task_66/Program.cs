@@ -8,7 +8,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 void Zadaha64(int n, int m, int summa = 0)
 {
-    summa = summa + m;
+    summa += m;
     m++;
     if(m > n)
     {
